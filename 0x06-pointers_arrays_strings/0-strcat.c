@@ -2,7 +2,7 @@
 
 
 /**
-* _street - concatenates two strings
+* _strcat  - concatenates two strings
 * @dest: destination string
 * @src: source string
 * Return: dest;

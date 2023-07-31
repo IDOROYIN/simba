@@ -3,9 +3,10 @@
 
 int main(void)
 {
-	char *s = "happy";
-	char *a;
+	char *s = "hello, world";
+	char *f = "oleh";
+	unsigned int n;
 
-	a = strchr(s, 'P');
-	printf("%s\n", a);
-}	
+	n = strspn(s, f);
+	printf("%u\n", n);
+}
